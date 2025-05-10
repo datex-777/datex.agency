@@ -1,49 +1,332 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DateX</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateX Agency - Профессиональное дейтинг-агентство</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Хедер -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="DateX Logo">
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#why-us">Почему мы</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <header>
-    <h1>DATEX</h1>
-    <p>Знакомства для каждого!</p>
-  </header>
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Date<span>X</span> - Агентство международных знакомств</h1>
+                <p>Уже более 3 лет мы успешно соединяем сердца по всему миру. Сотрудничаем с топовыми сайтами знакомств и обеспечиваем высококачественный трафик для моделей.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Начать сотрудничество</a>
+                    <a href="#services" class="btn btn-secondary">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <nav>
-    <a href="#services">Услуги</a>
-    <a href="#reviews">Отзывы</a>
-    <a href="#contact">Контакты</a>
-  </nav>
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="/api/placeholder/600/400" alt="DateX Team">
+                </div>
+                <div class="about-content">
+                    <h3>Мы соединяем сердца</h3>
+                    <p>DateX — это современное дейтинг-агентство, которое уже более 3 лет успешно соединяет сердца по всему миру.</p>
+                    <p>Мы команда профессионалов, которая помогает девушкам из Украины и Европы выйти на международные сайты знакомств и найти достойных мужчин, построить крепкие отношения и изменить свою жизнь к лучшему.</p>
+                    <p>Мы работаем с топовыми сайтами — Dream Singles, Dating.com, PlaceToChat и другими крупными платформами.</p>
+                    <p>Каждая клиентка для нас — это не просто анкета, а личность со своими мечтами и целями. Мы подбираем индивидуальную стратегию продвижения, помогаем с фотосессиями, анкетами, обучением и общением.</p>
+                    <p><strong>DateX — это агентство с безупречной репутацией, которое сотрудничает с множеством моделей и сайтов по всему миру. Наша гордость — прозрачное сотрудничество и высококачественный трафик.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="services">
-    <h2>Наши Услуги</h2>
-    <ul>
-      <li>Индивидуальный подбор партнёров</li>
-      <li>Фотосессии для профиля</li>
-      <li>Психологическая поддержка</li>
-      <li>Сопровождение и консультации</li>
-    </ul>
-  </section>
+    <!-- Почему мы -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-heart"></i> 200+ успешных историй</h3>
+                        <p>За 3 года работы мы помогли более чем 200 парам найти друг друга и построить счастливые отношения.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-check-circle"></i> Проверенные платформы</h3>
+                        <p>Мы сотрудничаем только с надежными и проверенными сайтами знакомств мирового уровня.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-headset"></i> Поддержка 24/7</h3>
+                        <p>Наша команда доступна круглосуточно: от регистрации до первых реальных встреч.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-user-tie"></i> Личный менеджер</h3>
+                        <p>Каждая клиентка получает персонального менеджера и скаута для максимальной эффективности.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-camera"></i> Помощь с имиджем</h3>
+                        <p>Организуем профессиональные фотосессии, помогаем с созданием имиджа и обучением.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3><i class="fas fa-chart-line"></i> Высокий трафик</h3>
+                        <p>Обеспечиваем качественный трафик для наших моделей, что повышает шансы на успешные знакомства.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="reviews">
-    <h2>Отзывы</h2>
-    <blockquote>“Лучший сервис! Благодаря DateX я нашла свою любовь.” — Алина</blockquote>
-    <blockquote>“Всё очень профессионально и удобно.” — Александр</blockquote>
-  </section>
+    <!-- Статистика -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>3+</h3>
+                    <p>Года опыта</p>
+                </div>
+                <div class="stat-item">
+                    <h3>200+</h3>
+                    <p>Успешных пар</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Сайтов-партнеров</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Поддержка</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Контакты</h2>
-    <p>Email: info@datex.agency</p>
-    <p>Телефон: +380 XX XXX XXXX</p>
-  </section>
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Регистрация">
+                    <div class="service-content">
+                        <h3>Подбор платформы и регистрация</h3>
+                        <p>Анализируем ваши цели и предпочтения, подбираем идеальную платформу и помогаем с регистрацией.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Анкета">
+                    <div class="service-content">
+                        <h3>Создание анкеты и текстов</h3>
+                        <p>Разрабатываем привлекательный профиль и тексты, которые привлекут внимание потенциальных партнеров.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Фотоконтент">
+                    <div class="service-content">
+                        <h3>Подготовка фотоконтента</h3>
+                        <p>Организуем профессиональные фотосессии и подбираем лучшие фотографии для вашего профиля.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Сопровождение">
+                    <div class="service-content">
+                        <h3>Полное сопровождение общения</h3>
+                        <p>Помогаем вести переписку, советуем, как лучше ответить и развить отношения.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Перевод">
+                    <div class="service-content">
+                        <h3>Перевод сообщений</h3>
+                        <p>Обеспечиваем качественный перевод сообщений и консультации по культурным особенностям.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/api/placeholder/400/250" alt="Продвижение">
+                    <div class="service-content">
+                        <h3>Продвижение профиля</h3>
+                        <p>Используем проверенные методы для повышения видимости вашего профиля и привлечения внимания.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 DateX Agency. Все права защищены.</p>
-  </footer>
+    <!-- Отзывы -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-content">
+                        <p>"С DateX я познакомилась с будущим мужем всего за 4 месяца. Настоящие профессионалы!"</p>
+                        <h3>— Марина, Киев</h3>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <p>"Я работала с разными агентствами, но только здесь почувствовала настоящую заботу и индивидуальный подход."</p>
+                        <h3>— Анастасия, Львов</h3>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <p>"Рекомендую! Всё прозрачно, честно и очень результативно."</p>
+                        <h3>— Виктория, Одесса</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@datex.agency</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+380 XX XXX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>Украина, Киев</p>
+                        </div>
+                    </div>
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="logo.png" alt="DateX Logo" style="height: 50px; margin-bottom: 20px;">
+                    <p>DateX — профессиональное дейтинг-агентство с безупречной репутацией, которое помогает находить настоящую любовь.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Наши услуги</h4>
+                    <ul>
+                        <li><a href="#">Регистрация на сайтах</a></li>
+                        <li><a href="#">Создание анкет</a></li>
+                        <li><a href="#">Фотосессии</a></li>
+                        <li><a href="#">Сопровождение общения</a></li>
+                        <li><a href="#">Перевод сообщений</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Полезные ссылки</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@datex.agency</li>
+                        <li><i class="fas fa-phone"></i> +380 XX XXX XX XX</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Украина, Киев</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DateX Agency. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
