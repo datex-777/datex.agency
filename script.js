@@ -1,17 +1,17 @@
 // DateX Agency Scripts
 
 // Мобільне меню
-const menuToggle = document.querySelector('.menu-toggle');
-const navMenu = document.querySelector('nav ul');
-
-if (menuToggle) {
-    menuToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('active');
-    });
-}
-
-// Багатомовність
 document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('nav ul');
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+    }
+
+    // Багатомовність
     // Отримати поточну мову з URL або localStorage
     let currentLang = localStorage.getItem('datex-language') || 'ru';
     
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             const successMessage = {
                 'en': 'Thank you for your message! We will contact you soon.',
-                'uk': 'Дякуємо за ваше повідомлення! Ми зв\'яжемося з вами найближчим часом.',
+                'ua': 'Дякуємо за ваше повідомлення! Ми зв\'яжемося з вами найближчим часом.',
                 'ru': 'Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.',
                 'es': '¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.'
             };
@@ -70,13 +70,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Инициализация AOS
+    // Ініціалізація AOS (якщо є)
     if (typeof AOS !== 'undefined') {
         AOS.init({
             duration: 1000,
             once: true
         });
     }
+
+    // Створення SVG логотипу як альтернатива, якщо PNG не завантажиться
+    createLogoSVG();
 });
 
 // Функція для встановлення активної мови
@@ -149,6 +152,3 @@ function createLogoSVG() {
         };
     });
 }
-
-// Ініціалізуємо SVG логотип при завантаженні сторінки
-createLogoSVG();
