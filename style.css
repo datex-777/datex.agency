@@ -34,6 +34,37 @@ a:hover {
   color: var(--secondary-color);
 }
 
+/* Приховування мовних блоків */
+[lang] {
+  display: none;
+}
+
+[lang="ru"] {
+  display: block;
+}
+
+/* Перемикач мов */
+.language-selector {
+  display: flex;
+  margin-right: 20px;
+}
+
+.lang-switcher {
+  margin: 0 5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--dark-color);
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.lang-switcher:hover,
+.lang-switcher.active {
+  color: var(--primary-color);
+  background-color: rgba(230, 57, 70, 0.1);
+}
+
 /* Контейнер */
 .container {
   width: 100%;
