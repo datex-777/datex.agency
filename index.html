@@ -15,16 +15,22 @@
             <div class="logo">
                 <img src="logo.png" alt="DateX Logo">
             </div>
+            <!-- Перемикач мов -->
+            <div class="language-switcher">
+                <button class="lang-btn" data-lang="ua">UA</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#why-us">Почему мы</a></li>
-                    <li><a href="#testimonials">Отзывы</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#about" data-lang-key="nav_about">О нас</a></li>
+                    <li><a href="#services" data-lang-key="nav_services">Услуги</a></li>
+                    <li><a href="#why-us" data-lang-key="nav_why_us">Почему мы</a></li>
+                    <li><a href="#testimonials" data-lang-key="nav_testimonials">Отзывы</a></li>
+                    <li><a href="#contact" data-lang-key="nav_contact">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,7 +41,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1 data-lang-key="hero_title">Date<span>X</span> - Международное скаутинговое агентство</h1>
-                <p>Мы занимаемся поиском и подбором анкет, а также налаживанием сотрудничества между исполнителями и агентствами по всему миру. Обеспечиваем стабильный поток кандидатов, прозрачную коммуникацию и индивидуальный подход под задачи каждого партнёра.</p>
+                <p data-lang-key="hero_description">Мы занимаемся поиском и подбором анкет, а также налаживанием сотрудничества между исполнителями и агентствами по всему миру. Обеспечиваем стабильный поток кандидатов, прозрачную коммуникацию и индивидуальный подход под задачи каждого партнёра.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary" data-lang-key="btn_start">Начать сотрудничество</a>
                     <a href="#services" class="btn btn-secondary" data-lang-key="btn_services">Наши услуги</a>
@@ -67,42 +73,42 @@
     <!-- Почему мы -->
     <section id="why-us" class="why-us">
         <div class="container">
-            <h2>Почему выбирают нас</h2>
+            <h2 data-lang-key="why_title">Почему выбирают нас</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-heart"></i> 200+ успешных историй сотрудничества</h3>
-                        <p>Нам доверились более 200 моделей — и каждая из них вышла на достойный доход благодаря выстроенной системе и доступу к лучшим платформам.</p>
+                        <h3 data-lang-key="why_card1_title"><i class="fas fa-heart"></i> 200+ успешных историй сотрудничества</h3>
+                        <p data-lang-key="why_card1_text">Нам доверились более 200 моделей — и каждая из них вышла на достойный доход благодаря выстроенной системе и доступу к лучшим платформам.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-check-circle"></i> Проверенные платформы</h3>
-                        <p>Мы сотрудничаем только с надежными и проверенными дейтинг-платформами мирового уровня.</p>
+                        <h3 data-lang-key="why_card2_title"><i class="fas fa-check-circle"></i> Проверенные платформы</h3>
+                        <p data-lang-key="why_card2_text">Мы сотрудничаем только с надежными и проверенными дейтинг-платформами мирового уровня.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-headset"></i> Поддержка 24/7</h3>
-                        <p>Наша команда доступна круглосуточно: от регистрации до первых выплат.</p>
+                        <h3 data-lang-key="why_card3_title"><i class="fas fa-headset"></i> Поддержка 24/7</h3>
+                        <p data-lang-key="why_card3_text">Наша команда доступна круглосуточно: от регистрации до первых выплат.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-user-tie"></i> Личный менеджер</h3>
-                        <p>Каждая модель получает персонального менеджера для максимальной эффективности.</p>
+                        <h3 data-lang-key="why_card4_title"><i class="fas fa-user-tie"></i> Личный менеджер</h3>
+                        <p data-lang-key="why_card4_text">Каждая модель получает персонального менеджера для максимальной эффективности.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-camera"></i> Помощь с имиджем</h3>
-                        <p>Организуем профессиональные фотосессии, помогаем с созданием имиджа и обучением.</p>
+                        <h3 data-lang-key="why_card5_title"><i class="fas fa-camera"></i> Помощь с имиджем</h3>
+                        <p data-lang-key="why_card5_text">Организуем профессиональные фотосессии, помогаем с созданием имиджа и обучением.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <h3><i class="fas fa-chart-line"></i> Высокий трафик</h3>
-                        <p>Обеспечиваем качественный трафик для наших моделей, что повышает ежемесячный доход.</p>
+                        <h3 data-lang-key="why_card6_title"><i class="fas fa-chart-line"></i> Высокий трафик</h3>
+                        <p data-lang-key="why_card6_text">Обеспечиваем качественный трафик для наших моделей, что повышает ежемесячный доход.</p>
                     </div>
                 </div>
             </div>
@@ -115,19 +121,19 @@
             <div class="stats-grid">
                 <div class="stat-item">
                     <h3>3+</h3>
-                    <p>Года опыта</p>
+                    <p data-lang-key="stats_years">Года опыта</p>
                 </div>
                 <div class="stat-item">
                     <h3>200+</h3>
-                    <p>Довольных моделей</p>
+                    <p data-lang-key="stats_models">Довольных моделей</p>
                 </div>
                 <div class="stat-item">
                     <h3>20+</h3>
-                    <p>Сайтов-партнеров</p>
+                    <p data-lang-key="stats_partners">Сайтов-партнеров</p>
                 </div>
                 <div class="stat-item">
                     <h3>24/7</h3>
-                    <p>Поддержка</p>
+                    <p data-lang-key="stats_support">Поддержка</p>
                 </div>
             </div>
         </div>
@@ -136,48 +142,48 @@
     <!-- Услуги -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Наши услуги для моделей и партнеров</h2>
+            <h2 data-lang-key="services_title">Наши услуги для моделей и партнеров</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Регистрация">
                     <div class="service-content">
-                        <h3>Полное сопровождение и продвижение для моделей</h3>
-                        <p>Мы берём на себя все этапы: от регистрации до активной работы на платформах. Тебе не нужно вникать в технические детали — мы всё сделаем за тебя.</p>
+                        <h3 data-lang-key="service1_title">Полное сопровождение и продвижение для моделей</h3>
+                        <p data-lang-key="service1_text">Мы берём на себя все этапы: от регистрации до активной работы на платформах. Тебе не нужно вникать в технические детали — мы всё сделаем за тебя.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Анкета">
                     <div class="service-content">
-                        <h3>Помощь с контентом</h3>
-                        <p>При необходимости мы организуем профессиональную фотосессию, подбираем образ, помогаем с визажистом, стилистом и фотографом. Чтобы ты выглядела максимально эффектно.</p>
+                        <h3 data-lang-key="service2_title">Помощь с контентом</h3>
+                        <p data-lang-key="service2_text">При необходимости мы организуем профессиональную фотосессию, подбираем образ, помогаем с визажистом, стилистом и фотографом. Чтобы ты выглядела максимально эффектно.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Фотоконтент">
                     <div class="service-content">
-                        <h3>Конфиденциальность сотрудничества</h3>
-                        <p>Мы за конфиденциальность сотрудничества! Ваше удобство и безопасность — наш приоритет.</p>
+                        <h3 data-lang-key="service3_title">Конфиденциальность сотрудничества</h3>
+                        <p data-lang-key="service3_text">Мы за конфиденциальность сотрудничества! Ваше удобство и безопасность — наш приоритет.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Сопровождение">
                     <div class="service-content">
-                        <h3>Прозрачное сотрудничество для партнёров</h3>
-                        <p>Предоставляем только активных и проверенных моделей, а также весь необходимый контент и материалы для начала работы.</p>
+                        <h3 data-lang-key="service4_title">Прозрачное сотрудничество для партнёров</h3>
+                        <p data-lang-key="service4_text">Предоставляем только активных и проверенных моделей, а также весь необходимый контент и материалы для начала работы.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Перевод">
                     <div class="service-content">
-                        <h3>Гарантия на сотрудничество</h3>
-                        <p>Обеспечиваем надёжное и честное взаимодействие. В случае, если сотрудничество с моделью прекращается по объективным причинам — предоставляем замену или возвращаем оплату.</p>
+                        <h3 data-lang-key="service5_title">Гарантия на сотрудничество</h3>
+                        <p data-lang-key="service5_text">Обеспечиваем надёжное и честное взаимодействие. В случае, если сотрудничество с моделью прекращается по объективным причинам — предоставляем замену или возвращаем оплату.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <img src="/api/placeholder/400/250" alt="Продвижение">
                     <div class="service-content">
-                        <h3>Консультационная поддержка</h3>
-                        <p>Консультируем агентства по всем вопросам, связанным с работой. Помогаем в решении задач и после окончания гарантийного срока.</p>
+                        <h3 data-lang-key="service6_title">Консультационная поддержка</h3>
+                        <p data-lang-key="service6_text">Консультируем агентства по всем вопросам, связанным с работой. Помогаем в решении задач и после окончания гарантийного срока.</p>
                     </div>
                 </div>
             </div>
@@ -187,24 +193,24 @@
     <!-- Отзывы -->
     <section id="testimonials" class="testimonials">
         <div class="container">
-            <h2>Отзывы наших клиентов</h2>
+            <h2 data-lang-key="testimonials_title">Отзывы наших клиентов</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-content">
-                        <p>"С DateX я познакомилась с будущим мужем всего за 4 месяца. Настоящие профессионалы!"</p>
-                        <h3>— Марина, Киев</h3>
+                        <p data-lang-key="testimonial1">"С DateX я познакомилась с будущим мужем всего за 4 месяца. Настоящие профессионалы!"</p>
+                        <h3 data-lang-key="testimonial1_author">— Марина, Киев</h3>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <p>"Я работала с разными агентствами, но только здесь почувствовала настоящую заботу и индивидуальный подход."</p>
-                        <h3>— Анастасия, Львов</h3>
+                        <p data-lang-key="testimonial2">"Я работала с разными агентствами, но только здесь почувствовала настоящую заботу и индивидуальный подход."</p>
+                        <h3 data-lang-key="testimonial2_author">— Анастасия, Львов</h3>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-content">
-                        <p>"Рекомендую! Всё прозрачно, честно и очень результативно."</p>
-                        <h3>— Виктория, Одесса</h3>
+                        <p data-lang-key="testimonial3">"Рекомендую! Всё прозрачно, честно и очень результативно."</p>
+                        <h3 data-lang-key="testimonial3_author">— Виктория, Одесса</h3>
                     </div>
                 </div>
             </div>
@@ -214,31 +220,31 @@
     <!-- Контакты -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Свяжитесь с нами</h2>
+            <h2 data-lang-key="contact_title">Свяжитесь с нами</h2>
             <div class="contact-grid">
                 <div class="contact-form">
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group">
-                            <label for="name">Ваше имя</label>
+                            <label for="name" data-lang-key="contact_name">Ваше имя</label>
                             <input type="text" id="name" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-lang-key="contact_email">Email</label>
                             <input type="email" id="email" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Телефон</label>
+                            <label for="phone" data-lang-key="contact_phone">Телефон</label>
                             <input type="tel" id="phone" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="message">Сообщение</label>
+                            <label for="message" data-lang-key="contact_message">Сообщение</label>
                             <textarea id="message" class="form-control" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Отправить</button>
+                        <button type="submit" class="btn btn-primary" data-lang-key="contact_send">Отправить</button>
                     </form>
                 </div>
                 <div class="contact-info">
-                    <h3>Контактная информация</h3>
+                    <h3 data-lang-key="contact_info">Контактная информация</h3>
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
@@ -253,7 +259,7 @@
                             <i class="fas fa-phone"></i>
                         </div>
                         <div>
-                            <h4>Телефон</h4>
+                            <h4 data-lang-key="contact_phone">Телефон</h4>
                             <p>+33781874413</p>
                         </div>
                     </div>
@@ -262,11 +268,11 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
-                            <h4>Адрес</h4>
+                            <h4 data-lang-key="contact_address">Адрес</h4>
                             <p>Украина, Киев</p>
                         </div>
                     </div>
-                    <h3>Мы в соцсетях</h3>
+                    <h3 data-lang-key="contact_social">Мы в соцсетях</h3>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -284,7 +290,7 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <img src="logo.png" alt="DateX Logo" style="height: 50px; margin-bottom: 20px;">
-                    <p>DateX — профессиональное дейтинг-агентство с безупречной репутацией, которое помогает находить настоящую любовь.</p>
+                    <p data-lang-key="footer_description">DateX — профессиональное дейтинг-агентство с безупречной репутацией, которое помогает находить настоящую любовь.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -293,27 +299,27 @@
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h4>Наши услуги</h4>
+                    <h4 data-lang-key="footer_services">Наши услуги</h4>
                     <ul>
-                        <li><a href="#">Регистрация на сайтах</a></li>
-                        <li><a href="#">Создание анкет</a></li>
-                        <li><a href="#">Фотосессии</a></li>
-                        <li><a href="#">Сопровождение общения</a></li>
-                        <li><a href="#">Перевод сообщений</a></li>
+                        <li><a href="#" data-lang-key="footer_service1">Регистрация на сайтах</a></li>
+                        <li><a href="#" data-lang-key="footer_service2">Создание анкет</a></li>
+                        <li><a href="#" data-lang-key="footer_service3">Фотосессии</a></li>
+                        <li><a href="#" data-lang-key="footer_service4">Сопровождение общения</a></li>
+                        <li><a href="#" data-lang-key="footer_service5">Перевод сообщений</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Полезные ссылки</h4>
+                    <h4 data-lang-key="footer_links">Полезные ссылки</h4>
                     <ul>
-                        <li><a href="#about">О нас</a></li>
-                        <li><a href="#services">Услуги</a></li>
-                        <li><a href="#testimonials">Отзывы</a></li>
-                        <li><a href="#contact">Контакты</a></li>
-                        <li><a href="#">Блог</a></li>
+                        <li><a href="#about" data-lang-key="nav_about">О нас</a></li>
+                        <li><a href="#services" data-lang-key="nav_services">Услуги</a></li>
+                        <li><a href="#testimonials" data-lang-key="nav_testimonials">Отзывы</a></li>
+                        <li><a href="#contact" data-lang-key="nav_contact">Контакты</a></li>
+                        <li><a href="#" data-lang-key="footer_link_blog">Блог</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Контакты</h4>
+                    <h4 data-lang-key="footer_contacts">Контакты</h4>
                     <ul>
                         <li><i class="fas fa-envelope"></i> datexxagency@proton.me</li>
                         <li><i class="fas fa-phone"></i> +33781874413</li>
@@ -322,11 +328,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 DateX Agency. Все права защищены.</p>
+                <p data-lang-key="footer_copyright">&copy; 2025 DateX Agency. Все права защищены.</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="lang.js"></script>
 </body>
 </html>
