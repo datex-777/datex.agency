@@ -77,7 +77,9 @@ const translations = {
     contact_send: "Надіслати",
     contact_info: "Контактна інформація",
     contact_address: "Адреса",
+    contact_location: "Україна, Київ",
     contact_social: "Ми в соцмережах",
+    our_social_media: "Наші соціальні мережі",
     
     // Підвал
     footer_description: "DateX — професійне дейтинг-агентство з бездоганною репутацією, яке допомагає знаходити справжнє кохання.",
@@ -170,7 +172,9 @@ const translations = {
     contact_send: "Отправить",
     contact_info: "Контактная информация",
     contact_address: "Адрес",
+    contact_location: "Украина, Киев",
     contact_social: "Мы в соцсетях",
+    our_social_media: "Наши социальные сети",
     
     // Подвал
     footer_description: "DateX — профессиональное дейтинг-агентство с безупречной репутацией, которое помогает находить настоящую любовь.",
@@ -263,7 +267,9 @@ const translations = {
     contact_send: "Send",
     contact_info: "Contact Information",
     contact_address: "Address",
+    contact_location: "Ukraine, Kyiv",
     contact_social: "Our Social Media",
+    our_social_media: "Our Social Media",
     
     // Footer
     footer_description: "DateX is a professional dating agency with an impeccable reputation that helps find true love.",
