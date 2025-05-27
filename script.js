@@ -3,9 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('nav ul');
     
-    if (menuToggle && nav) {
+    // Перемикач мобільного меню
+    if (menuToggle) {
         menuToggle.addEventListener('click', function() {
             nav.classList.toggle('active');
+            
+            // Зміна іконки
+            const icon = this.querySelector('i');
+            if (nav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
         });
     }
     
@@ -13,25 +24,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('nav a');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            nav.classList.remove('active');
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
         });
     });
     
-    // Плавна прокрутка до секцій
-    const anchors = document.querySelectorAll('a[href^="#"]');
-    anchors.forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+    // Плавна прокрутка
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
             e.preventDefault();
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            
-            const targetSection = document.querySelector(targetId);
-            if (targetSection) {
-                const headerHeight = 80; // Висота хедера
-                const targetPosition = targetSection.offsetTop - headerHeight;
-                
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const headerOffset = 80;
+                const elementPosition = target.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
                 window.scrollTo({
-                    top: targetPosition,
+                    top: offsetPosition,
                     behavior: 'smooth'
                 });
             }
