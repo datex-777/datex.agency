@@ -45,19 +45,13 @@ const translations = {
     stats_support: "Підтримка",
     
     // Послуги
-    services_title: "Наші послуги для моделей та партнерів",
+    services_title: "Наші послуги для моделей",
     service1_title: "Повний супровід та просування для моделей",
     service1_text: "Ми беремо на себе всі етапи: від реєстрації до активної роботи на платформах. Тобі не потрібно вникати в технічні деталі — ми все зробимо за тебе.",
     service2_title: "Допомога з контентом",
     service2_text: "За необхідності ми організовуємо професійну фотосесію, підбираємо образ, допомагаємо з візажистом, стилістом і фотографом. Щоб ти виглядала максимально ефектно.",
     service3_title: "Конфіденційність співпраці",
     service3_text: "Ми за конфіденційність співпраці! Ваша зручність та безпека — наш пріоритет.",
-    service4_title: "Прозора співпраця для партнерів",
-    service4_text: "Надаємо тільки активних і перевірених моделей, а також весь необхідний контент і матеріали для початку роботи.",
-    service5_title: "Гарантія на співпрацю",
-    service5_text: "Забезпечуємо надійну і чесну взаємодію. У випадку, якщо співпраця з моделлю припиняється з об'єктивних причин — надаємо заміну або повертаємо оплату.",
-    service6_title: "Консультаційна підтримка",
-    service6_text: "Консультуємо агентства з усіх питань, пов'язаних з роботою. Допомагаємо у вирішенні завдань і після закінчення гарантійного терміну.",
     
     // Відгуки
     testimonials_title: "Відгуки наших клієнтів",
@@ -140,19 +134,13 @@ const translations = {
     stats_support: "Поддержка",
     
     // Услуги
-    services_title: "Наши услуги для моделей и партнеров",
+    services_title: "Наши услуги для моделей",
     service1_title: "Полное сопровождение и продвижение для моделей",
     service1_text: "Мы берём на себя все этапы: от регистрации до активной работы на платформах. Тебе не нужно вникать в технические детали — мы всё сделаем за тебя.",
     service2_title: "Помощь с контентом",
     service2_text: "При необходимости мы организуем профессиональную фотосессию, подбираем образ, помогаем с визажистом, стилистом и фотографом. Чтобы ты выглядела максимально эффектно.",
     service3_title: "Конфиденциальность сотрудничества",
     service3_text: "Мы за конфиденциальность сотрудничества! Ваше удобство и безопасность — наш приоритет.",
-    service4_title: "Прозрачное сотрудничество для партнёров",
-    service4_text: "Предоставляем только активных и проверенных моделей, а также весь необходимый контент и материалы для начала работы.",
-    service5_title: "Гарантия на сотрудничество",
-    service5_text: "Обеспечиваем надёжное и честное взаимодействие. В случае, если сотрудничество с моделью прекращается по объективным причинам — предоставляем замену или возвращаем оплату.",
-    service6_title: "Консультационная поддержка",
-    service6_text: "Консультируем агентства по всем вопросам, связанным с работой. Помогаем в решении задач и после окончания гарантийного срока.",
     
     // Отзывы
     testimonials_title: "Отзывы наших клиентов",
@@ -235,19 +223,13 @@ const translations = {
     stats_support: "Support",
     
     // Services
-    services_title: "Our Services for Models and Partners",
+    services_title: "Our Services for Models",
     service1_title: "Complete Support and Promotion for Models",
     service1_text: "We take over all stages: from registration to active work on platforms. You don't need to delve into technical details — we'll do everything for you.",
     service2_title: "Content Assistance",
     service2_text: "If necessary, we organize a professional photo session, select the image, help with makeup artists, stylists, and photographers. So that you look as impressive as possible.",
     service3_title: "Confidentiality of Cooperation",
     service3_text: "We stand for confidentiality of cooperation! Your convenience and safety are our priority.",
-    service4_title: "Transparent Cooperation for Partners",
-    service4_text: "We provide only active and verified models, as well as all necessary content and materials to start working.",
-    service5_title: "Cooperation Guarantee",
-    service5_text: "We ensure reliable and honest interaction. In case cooperation with a model ceases for objective reasons — we provide a replacement or return the payment.",
-    service6_title: "Consultation Support",
-    service6_text: "We consult agencies on all issues related to work. We help solve problems even after the warranty period ends.",
     
     // Testimonials
     testimonials_title: "Our Clients' Testimonials",
